@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXTool_Example' do
+  pod 'HXTool', :path => '../'
+
+  target 'HXTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
