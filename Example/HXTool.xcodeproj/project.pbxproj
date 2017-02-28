@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AF556A2B1E65465F003C2B76 /* HXButtonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AF556A2A1E65465F003C2B76 /* HXButtonTool.m */; };
+		AFFE0CD31E64854500D66152 /* HXColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE0CCF1E64854500D66152 /* HXColorTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 /* Begin PBXFileReference section */
 		066E4CF7B618698FD5943DD9 /* Pods-HXTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXTool_Tests/Pods-HXTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		224EE6070BD51671B773CEEF /* Pods-HXTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXTool_Example/Pods-HXTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3D36413A7F47BD66B9D91003 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		525B3E521E78C9614D564CE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D36413A7F47BD66B9D91003 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		525B3E521E78C9614D564CE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HXTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +66,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877D91612FB6E114A0219968 /* Pods_HXTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95592BEB5F10810182102652 /* Pods-HXTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXTool_Example/Pods-HXTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D5B1F80C8A5A7A1D8549CAC3 /* HXTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HXTool.podspec; path = ../HXTool.podspec; sourceTree = "<group>"; };
+		AF556A291E65465F003C2B76 /* HXButtonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXButtonTool.h; sourceTree = "<group>"; };
+		AF556A2A1E65465F003C2B76 /* HXButtonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXButtonTool.m; sourceTree = "<group>"; };
+		AFFE0CCE1E64854500D66152 /* HXColorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXColorTool.h; sourceTree = "<group>"; };
+		AFFE0CCF1E64854500D66152 /* HXColorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXColorTool.m; sourceTree = "<group>"; };
+		AFFE0CD01E64854500D66152 /* HXTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTool.h; sourceTree = "<group>"; };
+		D5B1F80C8A5A7A1D8549CAC3 /* HXTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HXTool.podspec; path = ../HXTool.podspec; sourceTree = "<group>"; };
 		FA6AF94B056D5A735DA21871 /* Pods_HXTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6A5C9E95841F19FDD1596C /* Pods-HXTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXTool_Tests/Pods-HXTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +139,7 @@
 		6003F593195388D20070C39A /* Example for HXTool */ = {
 			isa = PBXGroup;
 			children = (
+				AFFE0CD21E64854500D66152 /* HXTool */,
 				6003F59C195388D20070C39A /* HXAppDelegate.h */,
 				6003F59D195388D20070C39A /* HXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +191,27 @@
 				525B3E521E78C9614D564CE6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AFFE0CD11E64854500D66152 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFFE0CD01E64854500D66152 /* HXTool.h */,
+				AFFE0CCE1E64854500D66152 /* HXColorTool.h */,
+				AFFE0CCF1E64854500D66152 /* HXColorTool.m */,
+				AF556A291E65465F003C2B76 /* HXButtonTool.h */,
+				AF556A2A1E65465F003C2B76 /* HXButtonTool.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFFE0CD21E64854500D66152 /* HXTool */ = {
+			isa = PBXGroup;
+			children = (
+				AFFE0CD11E64854500D66152 /* Classes */,
+			);
+			name = HXTool;
+			path = ../../HXTool;
 			sourceTree = "<group>";
 		};
 		D45C3D1F8A57CBC83F9945AD /* Pods */ = {
@@ -247,7 +276,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HX;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Insofan;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -395,7 +424,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HXAppDelegate.m in Sources */,
+				AFFE0CD31E64854500D66152 /* HXColorTool.m in Sources */,
 				6003F5A7195388D20070C39A /* HXViewController.m in Sources */,
+				AF556A2B1E65465F003C2B76 /* HXButtonTool.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,14 +490,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -499,13 +535,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

@@ -1,0 +1,16 @@
+PODS:
+  - HXTool (0.1.0)
+
+DEPENDENCIES:
+  - HXTool (from `../`)
+
+EXTERNAL SOURCES:
+  HXTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HXTool: 5b1eeca731476791f8fdaa2ef5f82d3275628d7c
+
+PODFILE CHECKSUM: 8dbe780b5905f9de27dabe37d17756ddd31eccb7
+
+COCOAPODS: 1.2.0
