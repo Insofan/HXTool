@@ -20,9 +20,36 @@ it, simply add the following line to your Podfile:
 pod "HXTool"
 ```
 
+## Usage
+
+1.UIColor with hex string
+
+```
+self.view.backgroundColor = [UIColor colorWithRGBString:@"4EBDFB"];
+```
+
+or with RGB number
+
+```
+self.view.backgroundColor = [UIColor colorWithRGBNumber:78 green:189 blue:151];
+```
+
+2.UIButton
+
+```
+UIButton *button = [UIButton buttonWithTitle:@"button" fontSize:12 normalColor:[UIColor blueColor] selectedColor:[UIColor whiteColor]];
+```
+
+3.Screen frame
+
+```
+1.Screen Width and Screen Height
+view.frame = CGRectMake(100, 300, [UIScreen screenWidth]/2, [UIScreen screenHeight]/6);
+```
+
 ## Author
 
-Insofan, 282132315@qq.com
+Insofan, insofan3156@qq.com
 
 ## License
 
