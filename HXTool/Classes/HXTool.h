@@ -11,5 +11,8 @@
 #define HXTool_h
 #import "HXColorTool.h"
 #import "HXButtonTool.h"
+#import "HXScreenTool.h"
+
+
 
 #endif /* HXTool_h */

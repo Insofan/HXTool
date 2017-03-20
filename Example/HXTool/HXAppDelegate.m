@@ -15,6 +15,7 @@
 {
     // Override point for customization after application launch.
     HXViewController *vc = [HXViewController new];
+    
     self.window                    = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
