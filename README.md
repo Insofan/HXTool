@@ -49,7 +49,7 @@ view.frame = CGRectMake(100, 300, [UIScreen screenWidth]/2, [UIScreen screenHeig
 
 ## Author
 
-Insofan, insofan3156@qq.com
+Insofan, insofan3156@gmail.com
 
 ## License
 
