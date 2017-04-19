@@ -10,4 +10,6 @@
 + (UIColor *)colorWithRGBString:(NSString *)string;
 + (UIColor *)colorWithRGBNumber:(NSUInteger )red green:(NSUInteger )green blue:(NSUInteger )blue;
 + (UIColor *)colorWithRGBNumber:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(NSUInteger)alpha;
+
++ (UIColor *)randomColor;
 @end
