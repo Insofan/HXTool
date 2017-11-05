@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXTool'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'OC工具合集'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-简化OC工具合集
+OC工具合集
                        DESC
 
   s.homepage         = 'https://github.com/Insofan/HXTool'

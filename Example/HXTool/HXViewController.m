@@ -28,6 +28,8 @@
     //是用随机颜色
     view.backgroundColor = [UIColor randomColor];
     view.frame = CGRectMake(100, 300, [UIScreen screenWidth]/2, [UIScreen screenHeight]/6);
+    NSLog(@"app version: %@", AppVersion);
+    
     [self.view addSubview:view];
 }
 

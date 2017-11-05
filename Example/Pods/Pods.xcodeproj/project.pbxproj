@@ -22,6 +22,7 @@
 		AF6F88451E64818C0064BF45 /* HXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6F88421E64818C0064BF45 /* HXTool.h */; };
 		AF8ED61F1EA6262300473D5B /* HXScreenTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8ED61D1EA6262300473D5B /* HXScreenTool.h */; };
 		AF8ED6201EA6262300473D5B /* HXScreenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8ED61E1EA6262300473D5B /* HXScreenTool.m */; };
+		AFE96A3F1FAF5DEA00536984 /* HXMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE96A3E1FAF5DEA00536984 /* HXMacros.h */; };
 		C3041A084F67C5ED1D02C70470FF4FE6 /* Pods-HXTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAADDE9A3FC3F3F7740F683740C097 /* Pods-HXTool_Tests-dummy.m */; };
 		C828019C5AAFB60E8578F6E5098905A5 /* Pods-HXTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657A7CC7786640CFDCA3C812439C347B /* Pods-HXTool_Example-dummy.m */; };
 		CC2FA8FAAC4A4F615CB2C168DC7B797E /* HXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1679229B8D5402559C610C7576DCD99 /* HXTool-dummy.m */; };
@@ -70,6 +71,7 @@
 		AF6F88421E64818C0064BF45 /* HXTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTool.h; sourceTree = "<group>"; };
 		AF8ED61D1EA6262300473D5B /* HXScreenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXScreenTool.h; sourceTree = "<group>"; };
 		AF8ED61E1EA6262300473D5B /* HXScreenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXScreenTool.m; sourceTree = "<group>"; };
+		AFE96A3E1FAF5DEA00536984 /* HXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXMacros.h; sourceTree = "<group>"; };
 		B1679229B8D5402559C610C7576DCD99 /* HXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXTool-dummy.m"; sourceTree = "<group>"; };
 		BAC56706536A9573570FF21F06572716 /* Pods-HXTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HXTool_Tests.modulemap"; sourceTree = "<group>"; };
 		C30FF4314559C33D471410F5F7BC83D5 /* Pods-HXTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				5176701FB6FEA8C43F405385A9DBAB91 /* HXColorTool.h */,
 				5A59A3341F89AFEC6BCD655995AA476B /* HXColorTool.m */,
 				AF6F88421E64818C0064BF45 /* HXTool.h */,
+				AFE96A3E1FAF5DEA00536984 /* HXMacros.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				AF8ED61F1EA6262300473D5B /* HXScreenTool.h in Headers */,
 				AF556A2E1E654674003C2B76 /* HXButtonTool.h in Headers */,
 				3332FE5AE4A65017954C1643F7191609 /* HXColorTool.h in Headers */,
+				AFE96A3F1FAF5DEA00536984 /* HXMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
