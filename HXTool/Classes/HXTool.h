@@ -9,11 +9,11 @@
 
 #ifndef HXTool_h
 #define HXTool_h
+
+#import "HXMacros.h"
 #import "HXColorTool.h"
 #import "HXButtonTool.h"
 #import "HXScreenTool.h"
-#import "HXMacros.h"
-
-
+#import "HXNSArray.h"
 
 #endif /* HXTool_h */
