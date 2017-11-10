@@ -69,6 +69,15 @@ NSLog(@"app version: %@", AppVersion);
     }];
 ```
 
+6.NSDictionary
+
+```
+ //enumerate dictionary
+ [self.dictionary hx_each:^(id obj) {
+        NSLog(@"%@",obj);
+    }];
+```
+
 
 
 ## Author

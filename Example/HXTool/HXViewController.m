@@ -30,7 +30,7 @@
     view.frame = CGRectMake(100, 300, [UIScreen hx_screenWidth]/2, [UIScreen hx_screenHeight]/6);
     NSLog(@"App version: %@", AppVersion);
     self.array = @[@6, @5, @3];
-    
+
     [self.array hx_each:^(id obj) {
         NSLog(@"%@",obj);
     }];

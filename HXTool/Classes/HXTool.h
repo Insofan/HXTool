@@ -15,5 +15,7 @@
 #import "HXButtonTool.h"
 #import "HXScreenTool.h"
 #import "HXNSArray.h"
+#import "HXNSDictionary.h"
+
 
 #endif /* HXTool_h */
