@@ -25,32 +25,32 @@ pod "HXTool"
 1.UIColor with hex string
 
 ```
-self.view.backgroundColor = [UIColor colorWithRGBString:@"4EBDFB"];
+self.view.backgroundColor = [UIColor hx_colorWithRGBString:@"4EBDFB"];
 ```
 
 or with RGB number
 
 ```
-self.view.backgroundColor = [UIColor colorWithRGBNumber:78 green:189 blue:151];
+self.view.backgroundColor = [UIColor hx_colorWithRGBNumber:78 green:189 blue:151];
 ```
 
 also random color
 
 ```
-self.view.backgroundColor = [UIColor randomColor];
+self.view.backgroundColor = [UIColor hx_randomColor];
 ```
 
 2.UIButton
 
 ```
-UIButton *button = [UIButton buttonWithTitle:@"button" fontSize:12 normalColor:[UIColor blueColor] selectedColor:[UIColor whiteColor]];
+UIButton *button = [UIButton hx_buttonWithTitle:@"button" fontSize:12 normalColor:[UIColor blueColor] selectedColor:[UIColor whiteColor]];
 ```
 
 3.Screen frame
 
 ```
 1.Screen Width and Screen Height
-view.frame = CGRectMake(100, 300, [UIScreen screenWidth]/2, [UIScreen screenHeight]/6);
+view.frame = CGRectMake(100, 300, [UIScreen hx_screenWidth]/2, [UIScreen hx_screenHeight]/6);
 ```
 
 4.Macro
@@ -69,14 +69,7 @@ NSLog(@"app version: %@", AppVersion);
     }];
 ```
 
-6.NSDictionary
 
-```
- //enumerate dictionary
- [self.dictionary hx_each:^(id obj) {
-        NSLog(@"%@",obj);
-    }];
-```
 
 
 

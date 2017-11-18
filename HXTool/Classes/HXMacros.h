@@ -32,6 +32,13 @@
 
 //obj范型，计算obj类型
 
+
+/**
+ 判断objc是否有泛型
+
+ @param objc_generics 如果有泛型
+ @return 
+ */
 #if __has_feature(objc_generics)
 #   define GENERICS(class, ...)      class<__VA_ARGS__>
 #   define GENERICS_TYPE(type)       type
