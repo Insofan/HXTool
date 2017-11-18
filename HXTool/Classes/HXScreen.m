@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Insofan. All rights reserved.
 //
 
-#import "HXScreenTool.h"
+#import "HXScreen.h"
 
 @implementation UIScreen(HXTool)
 + (CGFloat )hx_screenWidth {
@@ -25,6 +25,13 @@
     return [UIScreen mainScreen].scale;
 }
 
++ (CGFloat )hx_appFrameHeight {
+    return [[UIScreen mainScreen] applicationFrame].size.height;
+}
+
++ (CGFloat )hx_appFrameWidth {
+    return [[UIScreen mainScreen] applicationFrame].size.width;
+}
 
 
 @end

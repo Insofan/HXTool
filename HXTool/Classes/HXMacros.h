@@ -9,7 +9,6 @@
 #define HXMacros_h
 
 // App Frame Height&Width
-#define AppFrameHeight        [[UIScreen mainScreen] applicationFrame].size.height
 #define AppFrameWidth         [[UIScreen mainScreen] applicationFrame].size.width
 
 

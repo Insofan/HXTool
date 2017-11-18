@@ -24,9 +24,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AF52A9131E7FCBA6009AD6F1 /* HXScreenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AF52A9121E7FCBA6009AD6F1 /* HXScreenTool.m */; };
-		AF556A2B1E65465F003C2B76 /* HXButtonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AF556A2A1E65465F003C2B76 /* HXButtonTool.m */; };
-		AFFE0CD31E64854500D66152 /* HXColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE0CCF1E64854500D66152 /* HXColorTool.m */; };
+		AF52A9131E7FCBA6009AD6F1 /* HXScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AF52A9121E7FCBA6009AD6F1 /* HXScreen.m */; };
+		AF556A2B1E65465F003C2B76 /* HXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF556A2A1E65465F003C2B76 /* HXButton.m */; };
+		AFFE0CD31E64854500D66152 /* HXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE0CCF1E64854500D66152 /* HXColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,12 +67,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877D91612FB6E114A0219968 /* Pods_HXTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95592BEB5F10810182102652 /* Pods-HXTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXTool_Example/Pods-HXTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AF52A9111E7FCBA6009AD6F1 /* HXScreenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXScreenTool.h; sourceTree = "<group>"; };
-		AF52A9121E7FCBA6009AD6F1 /* HXScreenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXScreenTool.m; sourceTree = "<group>"; };
-		AF556A291E65465F003C2B76 /* HXButtonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXButtonTool.h; sourceTree = "<group>"; };
-		AF556A2A1E65465F003C2B76 /* HXButtonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXButtonTool.m; sourceTree = "<group>"; };
-		AFFE0CCE1E64854500D66152 /* HXColorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXColorTool.h; sourceTree = "<group>"; };
-		AFFE0CCF1E64854500D66152 /* HXColorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXColorTool.m; sourceTree = "<group>"; };
+		AF52A9111E7FCBA6009AD6F1 /* HXScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXScreen.h; sourceTree = "<group>"; };
+		AF52A9121E7FCBA6009AD6F1 /* HXScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXScreen.m; sourceTree = "<group>"; };
+		AF556A291E65465F003C2B76 /* HXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXButton.h; sourceTree = "<group>"; };
+		AF556A2A1E65465F003C2B76 /* HXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXButton.m; sourceTree = "<group>"; };
+		AFFE0CCE1E64854500D66152 /* HXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXColor.h; sourceTree = "<group>"; };
+		AFFE0CCF1E64854500D66152 /* HXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXColor.m; sourceTree = "<group>"; };
 		AFFE0CD01E64854500D66152 /* HXTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTool.h; sourceTree = "<group>"; };
 		D5B1F80C8A5A7A1D8549CAC3 /* HXTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HXTool.podspec; path = ../HXTool.podspec; sourceTree = "<group>"; };
 		FA6AF94B056D5A735DA21871 /* Pods_HXTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,12 +200,12 @@
 			isa = PBXGroup;
 			children = (
 				AFFE0CD01E64854500D66152 /* HXTool.h */,
-				AFFE0CCE1E64854500D66152 /* HXColorTool.h */,
-				AFFE0CCF1E64854500D66152 /* HXColorTool.m */,
-				AF556A291E65465F003C2B76 /* HXButtonTool.h */,
-				AF556A2A1E65465F003C2B76 /* HXButtonTool.m */,
-				AF52A9111E7FCBA6009AD6F1 /* HXScreenTool.h */,
-				AF52A9121E7FCBA6009AD6F1 /* HXScreenTool.m */,
+				AFFE0CCE1E64854500D66152 /* HXColor.h */,
+				AFFE0CCF1E64854500D66152 /* HXColor.m */,
+				AF556A291E65465F003C2B76 /* HXButton.h */,
+				AF556A2A1E65465F003C2B76 /* HXButton.m */,
+				AF52A9111E7FCBA6009AD6F1 /* HXScreen.h */,
+				AF52A9121E7FCBA6009AD6F1 /* HXScreen.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -432,11 +432,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HXAppDelegate.m in Sources */,
-				AFFE0CD31E64854500D66152 /* HXColorTool.m in Sources */,
+				AFFE0CD31E64854500D66152 /* HXColor.m in Sources */,
 				6003F5A7195388D20070C39A /* HXViewController.m in Sources */,
-				AF556A2B1E65465F003C2B76 /* HXButtonTool.m in Sources */,
+				AF556A2B1E65465F003C2B76 /* HXButton.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				AF52A9131E7FCBA6009AD6F1 /* HXScreenTool.m in Sources */,
+				AF52A9131E7FCBA6009AD6F1 /* HXScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

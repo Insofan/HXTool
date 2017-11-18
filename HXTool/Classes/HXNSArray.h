@@ -10,12 +10,11 @@
 
 
 
-@interface GENERICS(NSArray, ObjectType) (BlocksKit)
+@interface GENERICS(NSArray, ObjectType) (HXTool)
 
 /**
- enumerateObjects
- 枚举array
- @param block ObjectType
+ Enumerate objects of array
+ @param Block Object
  */
 - (void)hx_each:(void (^)(ObjectType obj))block;
 

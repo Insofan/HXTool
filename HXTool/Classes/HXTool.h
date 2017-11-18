@@ -11,9 +11,9 @@
 #define HXTool_h
 
 #import "HXMacros.h"
-#import "HXColorTool.h"
-#import "HXButtonTool.h"
-#import "HXScreenTool.h"
+#import "HXColor.h"
+#import "HXButton.h"
+#import "HXScreen.h"
 #import "HXNSArray.h"
 #import "HXNSDictionary.h"
 

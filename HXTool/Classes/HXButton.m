@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Insofan. All rights reserved.
 //
 
-#import "HXButtonTool.h"
+#import "HXButton.h"
 
 @implementation UIButton(HXTool)
 + (instancetype)hx_buttonWithTitle:(NSString *)title fontSize:(CGFloat)fontSize normalColor:(UIColor *)normalColor selectedColor:(UIColor *)selectedColor {
@@ -17,7 +17,6 @@
     [button setTitleColor:selectedColor forState:UIControlStateSelected];
     
     button.titleLabel.font = [UIFont systemFontOfSize:fontSize];
-//    [button sizeToFit];
     return button;
 }
 @end

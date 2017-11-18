@@ -6,10 +6,12 @@
 //
 //
 
-#import "HXColorTool.h"
+#import "HXColor.h"
 @implementation UIColor(HXTool)
 //16进制颜色
-+ (UIColor *)hx_colorWithRGBString:(NSString *)string {
+
+
++ (UIColor *)hx_colorWithHexString:(NSString *)string {
     if ([string length] != 6) {
         return nil;
     }

@@ -18,8 +18,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor hx_colorWithRGBString:@"4EBDFB"];
-    //self.view.backgroundColor = [UIColor colorWithRGBNumber:78 green:189 blue:151];
+    self.view.backgroundColor = [UIColor hx_colorWithHexString:@"4EBDFB"];
+//    self.view.backgroundColor = [UIColor hx_colorWithRGBNumber:78 green:189 blue:151];
+    
     UIButton *button = [UIButton hx_buttonWithTitle:@"333" fontSize:12 normalColor:[UIColor blueColor] selectedColor:[UIColor whiteColor]];
     [self.view addSubview:button];
     button.frame = CGRectMake(100, 100, 100, 30);
