@@ -33,7 +33,6 @@
     self.array = @[@6, @5, @3];
     __weak typeof(self)  weakSelf = self;
     [NSTimer hx_scheduleTimerWithTimeInterval:3.0 repeats:true block:^(NSTimer *timer) {
-        
         weakSelf.view.backgroundColor = [UIColor hx_randomColor];
     }];
     
