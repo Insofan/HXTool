@@ -31,6 +31,12 @@
     view.frame = CGRectMake(100, 300, [UIScreen hx_screenWidth]/2, [UIScreen hx_screenHeight]/6);
     NSLog(@"App version: %@", AppVersion);
     self.array = @[@6, @5, @3];
+    __weak typeof(self)  weakSelf = self;
+    [NSTimer hx_scheduleTimerWithTimeInterval:3.0 repeats:true block:^(NSTimer *timer) {
+        
+        weakSelf.view.backgroundColor = [UIColor hx_randomColor];
+    }];
+    
 
     [self.array hx_each:^(id obj) {
         NSLog(@"%@",obj);

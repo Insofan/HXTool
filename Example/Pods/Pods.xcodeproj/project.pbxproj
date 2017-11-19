@@ -24,6 +24,8 @@
 		AF6F88451E64818C0064BF45 /* HXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6F88421E64818C0064BF45 /* HXTool.h */; };
 		AF8ED61F1EA6262300473D5B /* HXScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8ED61D1EA6262300473D5B /* HXScreen.h */; };
 		AF8ED6201EA6262300473D5B /* HXScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8ED61E1EA6262300473D5B /* HXScreen.m */; };
+		AFAF41A71FC05F9E006EE59C /* HXNSTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFAF41A51FC05F9E006EE59C /* HXNSTimer.h */; };
+		AFAF41A81FC05F9E006EE59C /* HXNSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAF41A61FC05F9E006EE59C /* HXNSTimer.m */; };
 		AFDCC0F71FB54E54009CCF3D /* HXNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDCC0F51FB54E54009CCF3D /* HXNSDictionary.h */; };
 		AFDCC0F81FB54E54009CCF3D /* HXNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDCC0F61FB54E54009CCF3D /* HXNSDictionary.m */; };
 		AFE96A3F1FAF5DEA00536984 /* HXMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE96A3E1FAF5DEA00536984 /* HXMacros.h */; };
@@ -77,6 +79,8 @@
 		AF6F88421E64818C0064BF45 /* HXTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTool.h; sourceTree = "<group>"; };
 		AF8ED61D1EA6262300473D5B /* HXScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXScreen.h; sourceTree = "<group>"; };
 		AF8ED61E1EA6262300473D5B /* HXScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXScreen.m; sourceTree = "<group>"; };
+		AFAF41A51FC05F9E006EE59C /* HXNSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXNSTimer.h; sourceTree = "<group>"; };
+		AFAF41A61FC05F9E006EE59C /* HXNSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXNSTimer.m; sourceTree = "<group>"; };
 		AFDCC0F51FB54E54009CCF3D /* HXNSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXNSDictionary.h; sourceTree = "<group>"; };
 		AFDCC0F61FB54E54009CCF3D /* HXNSDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXNSDictionary.m; sourceTree = "<group>"; };
 		AFE96A3E1FAF5DEA00536984 /* HXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXMacros.h; sourceTree = "<group>"; };
@@ -211,6 +215,8 @@
 				AF61097D1FB4CB1F00F5CDA0 /* HXNSArray.m */,
 				AFDCC0F51FB54E54009CCF3D /* HXNSDictionary.h */,
 				AFDCC0F61FB54E54009CCF3D /* HXNSDictionary.m */,
+				AFAF41A51FC05F9E006EE59C /* HXNSTimer.h */,
+				AFAF41A61FC05F9E006EE59C /* HXNSTimer.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 			files = (
 				AF61097E1FB4CB1F00F5CDA0 /* HXNSArray.h in Headers */,
 				E598F24357F5EFE13D462F0112275180 /* HXTool-umbrella.h in Headers */,
+				AFAF41A71FC05F9E006EE59C /* HXNSTimer.h in Headers */,
 				AFDCC0F71FB54E54009CCF3D /* HXNSDictionary.h in Headers */,
 				AF6F88431E64818C0064BF45 /* HXTool.h in Headers */,
 				AF8ED61F1EA6262300473D5B /* HXScreen.h in Headers */,
@@ -399,6 +406,7 @@
 				AF61097F1FB4CB1F00F5CDA0 /* HXNSArray.m in Sources */,
 				43C6C504C2B5BB26791BA070B8CB6EB0 /* HXColor.m in Sources */,
 				AF8ED6201EA6262300473D5B /* HXScreen.m in Sources */,
+				AFAF41A81FC05F9E006EE59C /* HXNSTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

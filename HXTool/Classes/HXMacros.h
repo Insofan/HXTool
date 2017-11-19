@@ -8,10 +8,6 @@
 #ifndef HXMacros_h
 #define HXMacros_h
 
-// App Frame Height&Width
-#define AppFrameWidth         [[UIScreen mainScreen] applicationFrame].size.width
-
-
 // 当前版本
 #define FSystemVersion          ([[[UIDevice currentDevice] systemVersion] floatValue])
 #define DSystemVersion          ([[[UIDevice currentDevice] systemVersion] doubleValue])
@@ -26,8 +22,6 @@
 
 //App版本号
 #define AppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
-
-
 
 //obj范型，计算obj类型
 

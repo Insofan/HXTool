@@ -16,6 +16,7 @@
 #import "HXScreen.h"
 #import "HXNSArray.h"
 #import "HXNSDictionary.h"
+#import "HXNSTimer.h"
 
 
 #endif /* HXTool_h */
