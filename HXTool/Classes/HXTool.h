@@ -2,7 +2,7 @@
 //  HXTool.h
 //  Pods
 //
-//  Created by 海啸 on 2017/2/27.
+//  Created by Insomnia on 2017/2/27.
 //
 //
 
@@ -17,6 +17,7 @@
 #import "HXNSArray.h"
 #import "HXNSDictionary.h"
 #import "HXNSTimer.h"
+#import "HXDevice.h"
 
 
 #endif /* HXTool_h */

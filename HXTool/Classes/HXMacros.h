@@ -2,7 +2,7 @@
 //  HXMacros.h
 //  HXTool
 //
-//  Created by 海啸 on 2017/11/5.
+//  Created by Insomnia on 2017/11/5.
 //
 
 #ifndef HXMacros_h

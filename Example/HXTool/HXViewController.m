@@ -2,8 +2,8 @@
 //  HXViewController.m
 //  HXTool
 //
-//  Created by Insofan on 02/27/2017.
-//  Copyright (c) 2017 Insofan. All rights reserved.
+//  Created by Insomnia on 02/27/2017.
+//  Copyright (c) 2017 Insomnia. All rights reserved.
 //
 
 #import "HXViewController.h"
@@ -41,6 +41,10 @@
         NSLog(@"%@",obj);
     }];
 
+    if ([UIDevice hx_aboveIOS10]) {
+        
+    NSLog(@"is current system version is 11 %id", [UIDevice hx_aboveIOS11]);
+    }
     [self.view addSubview:view];
 }
 

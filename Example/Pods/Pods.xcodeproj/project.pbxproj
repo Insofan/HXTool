@@ -33,6 +33,8 @@
 		C828019C5AAFB60E8578F6E5098905A5 /* Pods-HXTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657A7CC7786640CFDCA3C812439C347B /* Pods-HXTool_Example-dummy.m */; };
 		CC2FA8FAAC4A4F615CB2C168DC7B797E /* HXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1679229B8D5402559C610C7576DCD99 /* HXTool-dummy.m */; };
 		E598F24357F5EFE13D462F0112275180 /* HXTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A432E4437AD40E5239EF4A6A1B0A1F /* HXTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67063441FD4DAAD00D699B8 /* HXDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = E67063421FD4DAAD00D699B8 /* HXDevice.h */; };
+		E67063451FD4DAAD00D699B8 /* HXDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E67063431FD4DAAD00D699B8 /* HXDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		CB7EE167D059710E5C1B89C2852647F3 /* Pods-HXTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D651FADC53EFC9C7B1952CD7E44EEDA7 /* Pods-HXTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2B192F05619B9BF2E0BB792AC3C5356 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67063421FD4DAAD00D699B8 /* HXDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXDevice.h; sourceTree = "<group>"; };
+		E67063431FD4DAAD00D699B8 /* HXDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXDevice.m; sourceTree = "<group>"; };
 		EF86F3E3C79A9168BFC8F16AEA79E3E2 /* Pods-HXTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXTool_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,6 +221,8 @@
 				AFDCC0F61FB54E54009CCF3D /* HXNSDictionary.m */,
 				AFAF41A51FC05F9E006EE59C /* HXNSTimer.h */,
 				AFAF41A61FC05F9E006EE59C /* HXNSTimer.m */,
+				E67063421FD4DAAD00D699B8 /* HXDevice.h */,
+				E67063431FD4DAAD00D699B8 /* HXDevice.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 				AFDCC0F71FB54E54009CCF3D /* HXNSDictionary.h in Headers */,
 				AF6F88431E64818C0064BF45 /* HXTool.h in Headers */,
 				AF8ED61F1EA6262300473D5B /* HXScreen.h in Headers */,
+				E67063441FD4DAAD00D699B8 /* HXDevice.h in Headers */,
 				AF556A2E1E654674003C2B76 /* HXButton.h in Headers */,
 				3332FE5AE4A65017954C1643F7191609 /* HXColor.h in Headers */,
 				AFE96A3F1FAF5DEA00536984 /* HXMacros.h in Headers */,
@@ -405,6 +412,7 @@
 				CC2FA8FAAC4A4F615CB2C168DC7B797E /* HXTool-dummy.m in Sources */,
 				AF61097F1FB4CB1F00F5CDA0 /* HXNSArray.m in Sources */,
 				43C6C504C2B5BB26791BA070B8CB6EB0 /* HXColor.m in Sources */,
+				E67063451FD4DAAD00D699B8 /* HXDevice.m in Sources */,
 				AF8ED6201EA6262300473D5B /* HXScreen.m in Sources */,
 				AFAF41A81FC05F9E006EE59C /* HXNSTimer.m in Sources */,
 			);

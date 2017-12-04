@@ -2,7 +2,7 @@
 //  HXNSTimer.m
 //  HXTool
 //
-//  Created by 海啸 on 2017/11/18.
+//  Created by Insomnia on 2017/11/18.
 //
 
 #import "HXNSTimer.h"

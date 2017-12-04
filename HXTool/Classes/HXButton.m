@@ -2,8 +2,8 @@
 //  HXButtonTool.m
 //  HXTool
 //
-//  Created by 海啸 on 2017/2/28.
-//  Copyright © 2017年 Insofan. All rights reserved.
+//  Created by Insomnia on 2017/2/28.
+//  Copyright © 2017年 Insomnia. All rights reserved.
 //
 
 #import "HXButton.h"
